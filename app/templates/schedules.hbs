@@ -1,0 +1,10 @@
+<h2>Friday, March 27</h2>
+<ul class="list-group">
+{{#each}}
+    <li class="list-group-item">
+        <span class="badge">{{ location }}</span>
+        <h3 class="list-group-item-heading">{{ title }} <span class="label label-default">{{ time }}</span></h3>
+        <p class="list-group-item-text">{{ description }}</p>
+    </li>
+{{/each}}
+</ul>

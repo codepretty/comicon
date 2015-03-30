@@ -7,6 +7,7 @@ var Router = Ember.Router.extend({
 
 Router.map(function() {
     this.resource('schedules', { path: '/' });
+    this.route('programming');
 });
 
 export default Router;

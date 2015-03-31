@@ -27,6 +27,13 @@ export default DS.Model.extend({
             description: "more badass women",
             time: "4:30",
             location: "Room 666"
+        },
+        {
+            id: 4,
+            title: "Meet Stan 'TheMan' Lee",
+            description: "He will blow your socks off",
+            time: "1:00",
+            location: "Room 1337"
         }
     ]
 });
